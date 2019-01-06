@@ -1,0 +1,159 @@
+###ARMOR###
+################################################
+# Unique Armors
+component_set = {
+	key = "TFW_CRYSTAL_ARMOR_3"
+	
+	icon = "GFX_tfw_crystal_armor_3"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_CRYSTAL_ARMOR_4"
+	
+	icon = "GFX_tfw_crystal_armor_4"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_DRAGON_ARMOR_2"
+	
+	icon = "GFX_tfw_dragon_armor_2"
+	icon_frame = 1	
+}
+
+########Common Armor##
+#Tetraneutronium Armor (VI)
+component_set = {
+	key = "TFW_ARMOR_6"
+	
+	icon = "GFX_tfw_armor_6"
+	icon_frame = 1
+}
+
+####ADV COMMON ARMOR###
+#Dybarion Armor (VII)
+component_set = {
+	key = "TFW_ARMOR_7"
+	
+	icon = "GFX_tfw_armor_7"
+	icon_frame = 1	
+}
+
+#Dybaricramion Armor (VIII)
+component_set = {
+	key = "TFW_ARMOR_8"
+	
+	icon = "GFX_tfw_armor_8"
+	icon_frame = 1
+}
+
+#####BIO ARMOR#####
+#Tier I
+component_set = {
+	key = "TFW_ARMOR_7_BIO"
+	
+	icon = "GFX_tfw_armor_7_bio"
+	icon_frame = 1	
+}
+
+#Tier II
+component_set = {
+	key = "TFW_ARMOR_8_BIO"
+	
+	icon = "GFX_tfw_armor_8_bio"
+	icon_frame = 1	
+}
+
+#####PSI ARMOR#####
+#Tier I
+component_set = {
+	key = "TFW_ARMOR_7_PSI"
+	
+	icon = "GFX_tfw_armor_7_psi"
+	icon_frame = 1	
+}
+
+#Tier II
+component_set = {
+	key = "TFW_ARMOR_8_PSI"
+	
+	icon = "GFX_tfw_armor_8_psi"
+	icon_frame = 1	
+}
+
+#####SYNTH ARMOR ##
+#Tier I
+component_set = {
+	key = "TFW_ARMOR_7_SYNT"
+	
+	icon = "GFX_tfw_armor_7_synt"
+	icon_frame = 1	
+}
+
+#Tier II
+component_set = {
+	key = "TFW_ARMOR_8_SYNT"
+	
+	icon = "GFX_tfw_armor_8_synt"
+	icon_frame = 1	
+}
+
+#####MECH ARMOR ##
+# Plasteel Armor
+component_set = {
+	key = "TFW_ARMOR_1_MECH"
+	
+	icon = "GFX_tfw_armor_1_mech"
+	icon_frame = 1	
+}
+# Durasteel Armor
+component_set = {
+	key = "TFW_ARMOR_2_MECH"
+	
+	icon = "GFX_tfw_armor_2_mech"
+	icon_frame = 1	
+}
+# Ceramo-Metal Armor
+component_set = {
+	key = "TFW_ARMOR_3_MECH"
+	
+	icon = "GFX_tfw_armor_3_mech"
+	icon_frame = 1	
+}
+# Nanocomposite Armor
+component_set = {
+	key = "TFW_ARMOR_4_MECH"
+	
+	icon = "GFX_tfw_armor_4_mech"
+	icon_frame = 1	
+}
+# Neutronium Armor
+component_set = {
+	key = "TFW_ARMOR_5_MECH"
+	
+	icon = "GFX_tfw_armor_5_mech"
+	icon_frame = 1	
+}
+#Tetraneutronium Armor (VI)
+component_set = {
+	key = "TFW_ARMOR_6_MECH"
+	
+	icon = "GFX_tfw_armor_6_mech"
+	icon_frame = 1
+}
+# Advanced
+#Tier I
+component_set = {
+	key = "TFW_ARMOR_7_MECH"
+	
+	icon = "GFX_tfw_armor_7_mech"
+	icon_frame = 1	
+}
+#Tier II
+component_set = {
+	key = "TFW_ARMOR_8_MECH"
+	
+	icon = "GFX_tfw_armor_8_mech"
+	icon_frame = 1	
+}

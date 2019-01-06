@@ -1,0 +1,154 @@
+###########UNIQUE
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_crystal_armor_3"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_crystal_armor_3.dds"
+	}
+}
+
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_crystal_armor_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_crystal_armor_4.dds"
+	}
+}
+
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_dragon_armor_2"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_dragon_armor_2.dds"
+	}
+}
+
+########Common Armor##
+#Tetraneutronium Armor (VI)
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_6"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_6.dds"
+	}
+}
+
+####ADV COMMON ARMOR###
+#Dybarion Armor (VII)
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_7"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_7.dds"
+	}
+}
+
+#Dybaricramion Armor (VIII)
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_8"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_8.dds"
+	}
+}
+
+#####BIO ARMOR#####
+#Tier I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_7_bio"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_7_bio.dds"
+	}
+}
+#Tier II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_8_bio"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_8_bio.dds"
+	}
+}
+
+#####PSI ARMOR#####
+#Tier I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_7_psi"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_7_psi.dds"
+	}
+}
+#Tier II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_8_psi"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_8_psi.dds"
+	}
+}
+
+#####SYNTH ARMOR ##
+#Tier I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_7_synt"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_7_synt.dds"
+	}
+}
+#Tier II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_8_synt"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_8_synt.dds"
+	}
+}
+
+#####MECH ARMOR ##
+# Plasteel Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_1_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_1_mech.dds"
+	}
+}
+# Durasteel Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_2_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_2_mech.dds"
+	}
+}
+# Ceramo-Metal Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_3_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_3_mech.dds"
+	}
+}
+# Nanocomposite Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_4_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_4_mech.dds"
+	}
+}
+# Neutronium Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_5_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_5_mech.dds"
+	}
+}
+# Tetraneutronium Armor
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_6_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_6_mech.dds"
+	}
+}
+# Advanced
+#Tier I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_7_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_7_mech.dds"
+	}
+}
+#Tier II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_armor_8_mech"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_armor_8_mech.dds"
+	}
+}

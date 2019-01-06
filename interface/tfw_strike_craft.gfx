@@ -1,0 +1,167 @@
+###STRIKE_CRAFT###
+################################### COMMMON ##################################
+#I 
+#II 
+#III
+#IV
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_4.dds"
+	}
+}
+
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_5"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_5.dds"
+	}
+}
+
+################################# SPIRITUALISTS ######################################
+#I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_psi_1"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_psi_1.dds"
+	}
+}
+#II 
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_psi_2"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_psi_2.dds"
+	}
+}
+#III
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_psi_3"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_psi_3.dds"
+	}
+}
+#IV
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_psi_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_psi_4.dds"
+	}
+}
+#V
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_psi_5"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_psi_5.dds"
+	}
+}
+
+################################# MATERIALISTS ######################################
+#I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mat_1"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mat_1.dds"
+	}
+}
+#II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mat_2"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mat_2.dds"
+	}
+}
+#III
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mat_3"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mat_3.dds"
+	}
+}
+#IV
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mat_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mat_4.dds"
+	}
+}
+#V
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mat_5"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mat_5.dds"
+	}
+}
+
+################################# MACHINES ######################################
+#I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mech_1"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mech_1.dds"
+	}
+}
+#II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mech_2"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mech_2.dds"
+	}
+}
+#III
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mech_3"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mech_3.dds"
+	}
+}
+#IV
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mech_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mech_4.dds"
+	}
+}
+#V
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_mech_5"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_mech_5.dds"
+	}
+}
+
+################################# HIVE ######################################
+#I
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_hive_1"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_hive_1.dds"
+	}
+}
+#II
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_hive_2"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_hive_2.dds"
+	}
+}
+#III
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_hive_3"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_hive_3.dds"
+	}
+}
+#IV
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_hive_4"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_hive_4.dds"
+	}
+}
+#V
+spriteTypes{
+	spriteType = {
+		name = "GFX_tfw_strike_craft_hive_5"
+		texturefile = "gfx/interface/icons/ship_parts/tfw_strike_craft_hive_5.dds"
+	}
+}

@@ -1,0 +1,301 @@
+﻿l_english:
+#l_spanish:
+#l_french:
+#l_german:
+#l_braz_por:
+#l_polish:
+
+###########################
+#   *   *   *   *   *   *
+###########################
+# SPECIAL TECHS
+###########################
+tech_tfw_special_psi_machinery:0 "Psionic Machinery"
+tech_tfw_special_psi_machinery_desc:0 "We can design machines for different purposes that will be able to receive, analyze and execute our psionic commands.\n\n"
+TECH_UNLOCK_PSI_DRONES_TITLE:0 "§HUnlocks development of:§! Psionic Drones"
+TECH_UNLOCK_PSI_DRONES_DESC:0 "With the help of telepathy, we can transmit commands to our drones via psionic channels over long distances."
+
+###########################
+# UTILITIES
+###########################
+#   *   *   *   *   *   *
+###########################
+# Armors
+###########################
+###### Unique Armor ##
+# Crystal-Merged
+SMALL_TFW_CRYSTAL_ARMOR_3:0 "Small Crystal-Merged Plating"
+MEDIUM_TFW_CRYSTAL_ARMOR_3:0 "Medium Crystal-Merged Plating"
+LARGE_TFW_CRYSTAL_ARMOR_3:0 "Large Crystal-Merged Plating"
+TFW_CRYSTAL_ARMOR_3:0 "Crystal-Merged Plating"
+TFW_CRYSTAL_ARMOR_3_DESC:0 "This plating improves the durability of ship hull structures."
+tech_tfw_crystal_armor_3:0 "Crystalline Polymetals"
+tech_tfw_crystal_armor_3_desc:0 "Our further experiments with crystalline diffusion processes grant us new ways to improve the durability of hull structures.\n\n"
+# Crystalline Alloy 
+SMALL_TFW_CRYSTAL_ARMOR_4:0 "Small Crystalline Alloy Plating"
+MEDIUM_TFW_CRYSTAL_ARMOR_4:0 "Medium Crystalline Alloy Plating"
+LARGE_TFW_CRYSTAL_ARMOR_4:0 "Large Crystalline Alloy Plating"
+TFW_CRYSTAL_ARMOR_4:0 "Crystalline Alloy Plating"
+TFW_CRYSTAL_ARMOR_4_DESC:0 "This plating improves the durability of ship hull structures."
+tech_tfw_crystal_armor_4:0 "Crystalline Alloys"
+tech_tfw_crystal_armor_4_desc:0 "New technical processes for the manufacture of crystalline alloys allow us to fabricate improved Crystalline Platings.\n\n"
+# Dragon Scale Armor 
+SMALL_TFW_DRAGON_ARMOR_2:0 "Small Strengthen Dragon Scale Plating"
+MEDIUM_TFW_DRAGON_ARMOR_2:0 "Medium Strengthen Dragon Scale Plating"
+LARGE_TFW_DRAGON_ARMOR_2:0 "Large Strengthen Dragon Scale Plating"
+TFW_DRAGON_ARMOR_2:0 "Strengthen Dragon Scale Plating"
+TFW_DRAGON_ARMOR_2_DESC:0 "Interfering with the growth of dragon scales, we can achieve its further strengthening."
+tech_tfw_dragon_armor_2:0 "Dragon Scale Strengthening"
+tech_tfw_dragon_armor_2_desc:0 "Interfering with the growth of dragon scales, we can achieve its further strengthening.\n\n"
+###### Common Armor ##
+# Tetraneutronium Armor (VI)
+TFW_ARMOR_6:0 "Tetraneutronium Armor"
+TFW_ARMOR_6_DESC:0 "It consists of a more densely packed neutronium substance."
+SMALL_TFW_ARMOR_6:0 "Small Tetraneutronium Armor"
+MEDIUM_TFW_ARMOR_6:0 "Medium Tetraneutronium Armor"
+LARGE_TFW_ARMOR_6:0 "Large Tetraneutronium Armor"
+tech_tfw_ship_armor_6:0 "Tetraneutronium Armor"
+tech_tfw_ship_armor_6_desc:0 "Stabilized tetraneutronium substance is much more perspective to use in ship armor.\n\n"
+###### Advanced Common Armor ##
+# (VII)
+TFW_ARMOR_7:0 "Plasmatic Armor"
+TFW_ARMOR_7_DESC:0 "The structure of this armor includes well-placed compact dense plasma generators; the generated plasma partially absorbs the damage received by the outer casing."
+SMALL_TFW_ARMOR_7:0 "Small Plasmatic Armor"
+MEDIUM_TFW_ARMOR_7:0 "Medium Plasmatic Armor"
+LARGE_TFW_ARMOR_7:0 "Large Plasmatic Armor"
+tech_tfw_ship_armor_7:0 "High-Precision Layering"
+tech_tfw_ship_armor_7_desc:0 "Changes in the manufacture of multilayer armor using high-precision modeling of diffusion processes, as well as the effect of thermal and impact loads, allow us to design more durable materials with special properties.\n\n"
+# (VIII)
+TFW_ARMOR_8:0 "Improved Plasma-Armor"
+TFW_ARMOR_8_DESC:0 "The structure of the armor was spared from the weakened nodes formed in the places of installation of plasma generators; in addition, protective plasma properties have also been improved."
+SMALL_TFW_ARMOR_8:0 "Small Improved Plasma-Armor"
+MEDIUM_TFW_ARMOR_8:0 "Medium Improved Plasma-Armor"
+LARGE_TFW_ARMOR_8:0 "Large Improved Plasma-Armor"
+tech_tfw_ship_armor_8:0 "High-Elastic Deformation"
+tech_tfw_ship_armor_8_desc:0 "By focusing on highly elastic deformations in the layers of armor, it is possible to significantly increase its effectiveness.\n\n"
+##### Bio Armor ##
+# Bio Armor (VII) 
+TFW_ARMOR_7_BIO:0 "Bio Armor"
+TFW_ARMOR_7_BIO_DESC:0 "This armor combines the possibility of self-regeneration with the appropriate structure strength."
+SMALL_TFW_ARMOR_7_BIO:0 "Small Bio Armor"
+MEDIUM_TFW_ARMOR_7_BIO:0 "Medium Bio Armor"
+LARGE_TFW_ARMOR_7_BIO:0 "Large Bio Armor"
+tech_tfw_armor_7_bio:0 "Bio Armor"
+tech_tfw_armor_7_bio_desc:0 "The structure of this armor contains capsules with genetically modified microorganisms that can very quickly repair its damaged areas. However, in return, they consume a small amount of special gas.\n\n"
+# Improved Bio Armor (VIII)
+TFW_ARMOR_8_BIO:0 "Improved Bio Armor"
+TFW_ARMOR_8_BIO_DESC:0 "This armor combines the possibility of self-regeneration with the good structure strength."
+SMALL_TFW_ARMOR_8_BIO:0 "Small Improved Bio Armor"
+MEDIUM_TFW_ARMOR_8_BIO:0 "Medium Improved Bio Armor"
+LARGE_TFW_ARMOR_8_BIO:0 "Large Improved Bio Armor"
+tech_tfw_armor_8_bio:0 "Improved Bio Armor"
+tech_tfw_armor_8_bio_desc:0 "Further gene modifications of armor microorganisms can significantly improve the recovery rate of armor.\n\n"
+##### Psi Armor ##
+# Psi Armor (VII)
+TFW_ARMOR_7_PSI:0 "Psi Armor"
+TFW_ARMOR_7_PSI_DESC:0 "It is equipped with emitters of psionic energy, blocking some of the incoming damage. The dissipation of psionic energy also gives an increase to the energy shields of the ship."
+SMALL_TFW_ARMOR_7_PSI:0 "Small Psi Armor"
+MEDIUM_TFW_ARMOR_7_PSI:0 "Medium Psi Armor"
+LARGE_TFW_ARMOR_7_PSI:0 "Large Psi Armor"
+tech_tfw_armor_7_psi:0 "Psi Armor"
+tech_tfw_armor_7_psi_desc:0 "Using the simplest psionic emitters in the structure of armor, we can increase its efficiency by creating local streams of psi-energy in the path of incoming damage.\n\n"
+# Focused Psi Armor (VIII)
+TFW_ARMOR_8_PSI:0 "Focused Psi Armor"
+TFW_ARMOR_8_PSI_DESC:0 "It is equipped with emitters of psionic energy, more effectively blocking the incoming damage. The dissipation of psionic energy also gives an increase to the energy shields of the ship."
+SMALL_TFW_ARMOR_8_PSI:0 "Small Focused Psi Armor"
+MEDIUM_TFW_ARMOR_8_PSI:0 "Medium Focused Psi Armor"
+LARGE_TFW_ARMOR_8_PSI:0 "Large Focused Psi Armor"
+tech_tfw_armor_8_psi:0 "Focused Psi Armor"
+tech_TFW_ARMOR_8_PSI_desc:0 "Improved psionic emitters make this armor much more effective in absorbing damage.\n\n"
+##### Synth Armor ##
+# Lamellar Armor (VII)
+TFW_ARMOR_7_SYNT:0 "Lamellar Armor"
+TFW_ARMOR_7_SYNT_DESC:0 "Combines lightweight armor case and improved hull structure design."
+SMALL_TFW_ARMOR_7_SYNT:0 "Small Lamellar Armor"
+MEDIUM_TFW_ARMOR_7_SYNT:0 "Medium Lamellar Armor"
+LARGE_TFW_ARMOR_7_SYNT:0 "Large Lamellar Armor"
+tech_tfw_armor_7_synt:0 "Lamellar Armor"
+tech_tfw_armor_7_synt_desc:0 "Deeply integrated into the hull structure, this armor embodies a practical approach to ship design. Even despite the fact that some of its highly responsible parts require the addition of rare crystals in the manufacturing process.\n\n"
+# Improved Lamellar Armor (VIII)
+TFW_ARMOR_8_SYNT:0 "Improved Lamellar Armor"
+TFW_ARMOR_8_SYNT_DESC:0 "This armor has a skillfully optimized exterior structure along with an excellent internal composition."
+SMALL_TFW_ARMOR_8_SYNT:0 "Small Improved Lamellar Armor"
+MEDIUM_TFW_ARMOR_8_SYNT:0 "Medium Improved Lamellar Armor"
+LARGE_TFW_ARMOR_8_SYNT:0 "Large Improved Lamellar Armor"
+tech_tfw_armor_8_synt:0 "Improved Lamellar Armor"
+tech_tfw_armor_8_synt_desc:0 "Further improvement of lamellar armor can be made by optimizing its nanostructure. It sounds much easier than it is.\n\n"
+##### MECHs Armor ##
+# Plasteel Armor (I)
+TFW_ARMOR_1_MECH:0 "Nanocomposite Armor"
+TFW_ARMOR_1_MECH_DESC:0 "Reinforced nanocomposite hull plating can provide an extra layer of protection that could be the difference between life and death in a combat situation. "
+SMALL_TFW_ARMOR_1_MECH:0 "Small Nanocomposite Armor"
+MEDIUM_TFW_ARMOR_1_MECH:0 "Medium Nanocomposite Armor"
+LARGE_TFW_ARMOR_1_MECH:0 "Large Nanocomposite Armor"
+# Durasteel Armor (II)
+TFW_ARMOR_2_MECH:0 "Ceramo-Metal Armor"
+TFW_ARMOR_2_MECH_DESC:0 "A combination of different metals and ceramics that result in a strong armor without sacrificing flexibility."
+SMALL_TFW_ARMOR_2_MECH:0 "Small Ceramo-Metal Armor"
+MEDIUM_TFW_ARMOR_2_MECH:0 "Medium Ceramo-Metal Armor"
+LARGE_TFW_ARMOR_2_MECH:0 "Large Ceramo-Metal Armor"
+# Ceramo-Metal Armor (III)
+TFW_ARMOR_3_MECH:0 "Plasteel Armor"
+TFW_ARMOR_3_MECH_DESC:0 "Plasteel is an elastic material that combines many of the qualities of plastics and metal. It is relatively cheap to produce and can be used to augment ship armor."
+SMALL_TFW_ARMOR_3_MECH:0 "Small Plasteel Armor"
+MEDIUM_TFW_ARMOR_3_MECH:0 "Medium Plasteel Armor"
+LARGE_TFW_ARMOR_3_MECH:0 "Large Plasteel Armor"
+# Nanocomposite Armor (IV)
+TFW_ARMOR_4_MECH:0 "Durasteel Armor"
+TFW_ARMOR_4_MECH_DESC:0 "This strong yet flexible material is capable of withstanding severe punishment. It serves well as ship armor."
+SMALL_TFW_ARMOR_4_MECH:0 "Small Durasteel Armor"
+MEDIUM_TFW_ARMOR_4_MECH:0 "Medium Durasteel Armor"
+LARGE_TFW_ARMOR_4_MECH:0 "Large Durasteel Armor"
+# Neutronium Armor (V)
+TFW_ARMOR_5_MECH:0 "Neutronium Armor"
+TFW_ARMOR_5_MECH_DESC:0 "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag."
+SMALL_TFW_ARMOR_5_MECH:0 "Small Neutronium Armor"
+MEDIUM_TFW_ARMOR_5_MECH:0 "Medium Neutronium Armor"
+LARGE_TFW_ARMOR_5_MECH:0 "Large Neutronium Armor"
+# Tetraneutronium Armor (VI)
+TFW_ARMOR_6_MECH:0 "Tetraneutronium Armor"
+TFW_ARMOR_6_MECH_DESC:0 "This incredibly dense and strong material can resist firepower that would turn armor made of any other alloys into slag."
+SMALL_TFW_ARMOR_6_MECH:0 "Small Tetraneutronium Armor"
+MEDIUM_TFW_ARMOR_6_MECH:0 "Medium Tetraneutronium Armor"
+LARGE_TFW_ARMOR_6_MECH:0 "Large Tetraneutronium Armor"
+# Dybarion Armor (VII)
+TFW_ARMOR_7_MECH:0 "Dybarion Armor"
+TFW_ARMOR_7_MECH_DESC:0 "Layers of dibaryon matter greatly increase the strength characteristics of this armor, but they are rather complicated to manufacture."
+SMALL_TFW_ARMOR_7_MECH:0 "Small Dybarion Armor"
+MEDIUM_TFW_ARMOR_7_MECH:0 "Medium Dybarion Armor"
+LARGE_TFW_ARMOR_7_MECH:0 "Large Dybarion Armor"
+# Dybaricramion Armor (VIII)
+TFW_ARMOR_8_MECH:0 "Dybaricramion Armor"
+TFW_ARMOR_8_MECH_DESC:0 "Uses adjusted and improved dibaryon layer technology."
+SMALL_TFW_ARMOR_8_MECH:0 "Small Dybaricramion Armor"
+MEDIUM_TFW_ARMOR_8_MECH:0 "Medium Dybaricramion Armor"
+LARGE_TFW_ARMOR_8_MECH:0 "Large Dybaricramion Armor"
+###########################
+#   *   *   *   *   *   *
+###########################
+# SHIELDS
+###########################
+#VI
+TFW_SHIELD_6:0 "Energon Shields"
+TFW_SHIELD_6_DESC:0 "Generators of these shields use special energon emitters."
+SMALL_TFW_SHIELD_6:0 "Small Energon Shields"
+MEDIUM_TFW_SHIELD_6:0 "Medium Energon Shields"
+LARGE_TFW_SHIELD_6:0 "Large Energon Shields"
+tech_tfw_shield_6:0 "Energon Emission"
+tech_tfw_shield_6_desc:0 "Specially designed energy emitters can improve the efficiency of shields.\n\n"
+#VII 
+TFW_SHIELD_7:0 "Cascade Shields"
+TFW_SHIELD_7_DESC:0 "Generators of these shields effectively use the cascade effects arising in their circuits."
+SMALL_TFW_SHIELD_7:0 "Small Cascade Shields"
+MEDIUM_TFW_SHIELD_7:0 "Medium Cascade Shields"
+LARGE_TFW_SHIELD_7:0 "Large Cascade Shields"
+tech_tfw_shield_7:0 "Cascade Shielding"
+tech_tfw_shield_7_desc:0 "These shields effectively use stabilized cascade effects that arise in high-energy circuits.\n\n"
+#VIII
+TFW_SHIELD_8:0 "Resonant Shields"
+TFW_SHIELD_8_DESC:0 "These advanced shields use resonance of cascade energy effects in their generators."
+SMALL_TFW_SHIELD_8:0 "Small Resonant Shields"
+MEDIUM_TFW_SHIELD_8:0 "Medium Resonant Shields"
+LARGE_TFW_SHIELD_8:0 "Large Resonant Shields"
+tech_tfw_shield_8:0 "Resonant Shielding"
+tech_tfw_shield_8_desc:0 "The further improvement of cascade stabilization in high-energy generators leads to resonant phenomena increasing the efficiency of shields.\n\n"
+# SPECIAL
+# Psionic Shield II (granted by Shroud)
+TFW_PSI_SHIELD_II:0 "Focused Psionic Shields"
+TFW_PSI_SHIELD_II_DESC:0 "Improved psionic emitters increase the strength of our psionic shields."
+SMALL_TFW_PSI_SHIELD_II:0 "Small Focused Psionic Shields"
+MEDIUM_TFW_PSI_SHIELD_II:0 "Medium Focused Psionic Shields"
+LARGE_TFW_PSI_SHIELD_II:0 "Large Focused Psionic Shields"
+tech_tfw_psionic_shield_2:0 "Improved Psi-Emitters"
+tech_tfw_psionic_shield_2_desc:0 "Using the emitters of special design, we can increase the strength of our psionic shields.\n\n"
+# Enigmatic Deflectors II (granted by FE)
+TFW_DARK_MATTER_DEFLECTOR_II:0 "Improved Dark Matter Deflectors"
+TFW_DARK_MATTER_DEFLECTOR_II_DESC:0 "These shields consist of new emitters and capacitors of special design utilizing dark matter power."
+SMALL_TFW_DARK_MATTER_DEFLECTOR_II:0 "Small Improved Dark Matter Deflectors"
+MEDIUM_TFW_DARK_MATTER_DEFLECTOR_II:0 "Medium Improved Dark Matter Deflectors"
+LARGE_TFW_DARK_MATTER_DEFLECTOR_II:0 "Large Improved Dark Matter Deflectors"
+tech_tfw_dark_matter_deflector_2:0 "Improved Dark Matter Deflectors"
+tech_tfw_dark_matter_deflector_2_desc:0 "It's a hard task to improve such exquisite technology, but our scientific progress allows us to do that.\n\n"
+###########################
+#   *   *   *   *   *   *
+###########################
+# STRIKE CRAFT
+###########################
+##### Common ##
+# IV
+TFW_STRIKE_CRAFT_HANGAR_4:0 "Tactical Bomber Wing"
+TFW_STRIKE_CRAFT_HANGAR_4_DESC:0 "These bombers are slightly more persistent to enemy fire and cause increased damage to enemy ships."
+tech_tfw_strike_craft_4:0 "Tactical Strike Craft"
+tech_tfw_strike_craft_4_desc:0 "This design of our strike craft has improved protection and firepower as well as an increased operational range.\n\n"
+# V
+TFW_STRIKE_CRAFT_HANGAR_5:0 "Heavy Bomber Wing"
+TFW_STRIKE_CRAFT_HANGAR_5_DESC:0 "Heavy bombers are distinguished by better protection and slightly improved armament."
+tech_tfw_strike_craft_5:0 "Heavy Strike Craft"
+tech_tfw_strike_craft_5_desc:0 "This design includes the latest developments in various fields of science, mainly aimed at enhancing protection and firepower of our strike craft.\n\n"
+##### Spiritualists ##
+# I
+TFW_STRIKE_CRAFT_PSI_1:0 "Psi Drone Wing I"
+TFW_STRIKE_CRAFT_PSI_1_DESC:0 "Our pilots can remotely control these drones with special psi-interfaces without much loss of combat efficiency."  
+# II
+TFW_STRIKE_CRAFT_PSI_2:0 "Psi Drone Wing II"
+TFW_STRIKE_CRAFT_PSI_2_DESC:0 "Our pilots can remotely control these drones with special psi-interfaces without much loss of combat efficiency."  
+# III
+TFW_STRIKE_CRAFT_PSI_3:0 "Psi Drone Wing III"
+TFW_STRIKE_CRAFT_PSI_3_DESC:0 "Our pilots can remotely control these drones with special psi-interfaces without much loss of combat efficiency. A small amount of Zro is necessarily required."  
+# IV
+TFW_STRIKE_CRAFT_PSI_4:0 "Psi Drone Wing IV"
+TFW_STRIKE_CRAFT_PSI_4_DESC:0 "Our pilots can remotely control these drones with special psi-interfaces without much loss of combat efficiency. A small amount of Zro is necessarily required."
+# V
+TFW_STRIKE_CRAFT_PSI_5:0 "Psi Drone Wing V"
+TFW_STRIKE_CRAFT_PSI_5_DESC:0 "Our pilots can remotely control these drones with special psi-interfaces without much loss of combat efficiency. A small amount of Zro is necessarily required."
+##### Materialists ##
+# I
+TFW_STRIKE_CRAFT_MAT_1:0 "Drone Bomber Wing I"
+TFW_STRIKE_CRAFT_MAT_1_DESC:0 "These drones were designed to operate as a strike bomber wing. Their sophisticated intelligence is the masterpiece work of our best programmers."   
+# II
+TFW_STRIKE_CRAFT_MAT_2:0 "Drone Bomber Wing II"
+TFW_STRIKE_CRAFT_MAT_2_DESC:0 "These drones were designed to operate as a strike bomber wing. Their sophisticated intelligence is the masterpiece work of our best programmers."   
+# III
+TFW_STRIKE_CRAFT_MAT_3:0 "Drone Bomber Wing III"
+TFW_STRIKE_CRAFT_MAT_3_DESC:0 "These drones were designed to operate as a strike bomber wing. Their sophisticated intelligence is the masterpiece work of our best programmers."   
+# IV 
+TFW_STRIKE_CRAFT_MAT_4:0 "Drone Bomber Wing IV"
+TFW_STRIKE_CRAFT_MAT_4_DESC:0 "These drones have the same complex thinking algorithms as our synthetics, but are designed specifically for strike craft operations."
+# V
+TFW_STRIKE_CRAFT_MAT_5:0 "Drone Bomber Wing V"
+TFW_STRIKE_CRAFT_MAT_5_DESC:0 "These drones have the same complex thinking algorithms as our synthetics, but are designed specifically for strike craft operations."
+##### Mechs ##
+# I
+TFW_STRIKE_CRAFT_MECH_1:0 "Strike Swarm I"
+TFW_STRIKE_CRAFT_MECH_1_DESC:0 "These highly intelligent drones are designed to overcome enemy defenses by their number and advanced tactics." 
+# II
+TFW_STRIKE_CRAFT_MECH_2:0 "Strike Swarm II"
+TFW_STRIKE_CRAFT_MECH_2_DESC:0 "These highly intelligent drones are designed to overcome enemy defenses by their number and advanced tactics."
+# III
+TFW_STRIKE_CRAFT_MECH_3:0 "Strike Swarm III"
+TFW_STRIKE_CRAFT_MECH_3_DESC:0 "These highly intelligent drones are designed to overcome enemy defenses by their number and advanced tactics." 
+# IV
+TFW_STRIKE_CRAFT_MECH_4:0 "Strike Swarm IV"
+TFW_STRIKE_CRAFT_MECH_4_DESC:0 "These highly intelligent drones are designed to overcome enemy defenses by their number and advanced tactics."
+# V
+TFW_STRIKE_CRAFT_MECH_5:0 "Strike Swarm V"
+TFW_STRIKE_CRAFT_MECH_5_DESC:0 "These highly intelligent drones are designed to overcome enemy defenses by their number and advanced tactics."
+##### Hive ##
+# I
+TFW_STRIKE_CRAFT_HIVE_1:0 "Strike Hive I"
+TFW_STRIKE_CRAFT_HIVE_1_DESC:0 "A swarm of small warships that uses the maximum advantages in coordination and maneuverability, accessible only to gestalt consciousness."
+# II
+TFW_STRIKE_CRAFT_HIVE_2:0 "Strike Hive II"
+TFW_STRIKE_CRAFT_HIVE_2_DESC:0 "A swarm of small warships that uses the maximum advantages in coordination and maneuverability, accessible only to gestalt consciousness."
+# III
+TFW_STRIKE_CRAFT_HIVE_3:0 "Strike Hive III"
+TFW_STRIKE_CRAFT_HIVE_3_DESC:0 "A swarm of small warships that uses the maximum advantages in coordination and maneuverability, accessible only to gestalt consciousness."
+# IV
+TFW_STRIKE_CRAFT_HIVE_4:0 "Strike Hive IV"
+TFW_STRIKE_CRAFT_HIVE_4_DESC:0 "A swarm of small warships that uses the maximum advantages in coordination and maneuverability, accessible only to gestalt consciousness."
+# V
+TFW_STRIKE_CRAFT_HIVE_5:0 "Strike Hive V"
+TFW_STRIKE_CRAFT_HIVE_5_DESC:0 "A swarm of small warships that uses the maximum advantages in coordination and maneuverability, accessible only to gestalt consciousness."

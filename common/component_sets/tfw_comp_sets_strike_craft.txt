@@ -1,0 +1,168 @@
+###STRIKE_CRAFT###
+
+################################### COMMMON ##################################
+#I 
+#II 
+#III
+#IV
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HANGAR_4"
+	
+	icon = "GFX_tfw_strike_craft_4"
+	icon_frame = 1	
+}
+#V
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HANGAR_5"
+	
+	icon = "GFX_tfw_strike_craft_5"
+	icon_frame = 1	
+}
+
+################################# SPIRITUALISTS ######################################
+#I
+component_set = {
+	key = "TFW_STRIKE_CRAFT_PSI_1"
+	
+	icon = "GFX_tfw_strike_craft_psi_1"
+	icon_frame = 1	
+}
+#II 
+component_set = {
+	key = "TFW_STRIKE_CRAFT_PSI_2"
+	
+	icon = "GFX_tfw_strike_craft_psi_2"
+	icon_frame = 1	
+}
+#III
+component_set = {
+	key = "TFW_STRIKE_CRAFT_PSI_3"
+	
+	icon = "GFX_tfw_strike_craft_psi_3"
+	icon_frame = 1	
+}
+#IV
+component_set = {
+	key = "TFW_STRIKE_CRAFT_PSI_4"
+	
+	icon = "GFX_tfw_strike_craft_psi_4"
+	icon_frame = 1	
+}
+#V
+component_set = {
+	key = "TFW_STRIKE_CRAFT_PSI_5"
+	
+	icon = "GFX_tfw_strike_craft_psi_5"
+	icon_frame = 1	
+}
+
+################################# MATERIALISTS ######################################
+#I
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MAT_1"
+	
+	icon = "GFX_tfw_strike_craft_mat_1"
+	icon_frame = 1	
+}
+#II
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MAT_2"
+	
+	icon = "GFX_tfw_strike_craft_mat_2"
+	icon_frame = 1	
+}
+#III
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MAT_3"
+	
+	icon = "GFX_tfw_strike_craft_mat_3"
+	icon_frame = 1	
+}
+#IV
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MAT_4"
+	
+	icon = "GFX_tfw_strike_craft_mat_4"
+	icon_frame = 1	
+}
+#V
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MAT_5"
+	
+	icon = "GFX_tfw_strike_craft_mat_5"
+	icon_frame = 1	
+}
+
+################################# MACHINES ######################################
+#I
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MECH_1"
+	
+	icon = "GFX_tfw_strike_craft_mech_1"
+	icon_frame = 1	
+}
+#II
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MECH_2"
+	
+	icon = "GFX_tfw_strike_craft_mech_2"
+	icon_frame = 1	
+}
+#III
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MECH_3"
+	
+	icon = "GFX_tfw_strike_craft_mech_3"
+	icon_frame = 1	
+}
+#IV
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MECH_4"
+	
+	icon = "GFX_tfw_strike_craft_mech_4"
+	icon_frame = 1	
+}
+#V
+component_set = {
+	key = "TFW_STRIKE_CRAFT_MECH_5"
+	
+	icon = "GFX_tfw_strike_craft_mech_5"
+	icon_frame = 1	
+}
+
+################################# HIVE ######################################
+#I
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HIVE_1"
+	
+	icon = "GFX_tfw_strike_craft_hive_1"
+	icon_frame = 1	
+}
+#II
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HIVE_2"
+	
+	icon = "GFX_tfw_strike_craft_hive_2"
+	icon_frame = 1	
+}
+#III
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HIVE_3"
+	
+	icon = "GFX_tfw_strike_craft_hive_3"
+	icon_frame = 1	
+}
+#IV
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HIVE_4"
+	
+	icon = "GFX_tfw_strike_craft_hive_4"
+	icon_frame = 1	
+}
+#V
+component_set = {
+	key = "TFW_STRIKE_CRAFT_HIVE_5"
+	
+	icon = "GFX_tfw_strike_craft_hive_5"
+	icon_frame = 1	
+}

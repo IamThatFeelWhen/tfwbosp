@@ -1,0 +1,36 @@
+###SHIELDS###
+
+component_set = {
+	key = "TFW_SHIELD_6"
+	
+	icon = "GFX_tfw_shield_6"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_SHIELD_7"
+	
+	icon = "GFX_tfw_shield_7"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_SHIELD_8"
+	
+	icon = "GFX_tfw_shield_8"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_PSI_SHIELD_II"
+	
+	icon = "GFX_tfw_psi_shield_2"
+	icon_frame = 1	
+}
+
+component_set = {
+	key = "TFW_DARK_MATTER_DEFLECTOR_II"
+	
+	icon = "GFX_tfw_dark_matter_shield_2"
+	icon_frame = 1	
+}

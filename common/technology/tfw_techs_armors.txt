@@ -1,0 +1,605 @@
+# ##################
+# Unique
+# ##################
+##### Crystal ##
+#Crystal-Merged Plating
+tech_tfw_crystal_armor_3 = {
+	area = engineering
+	cost = @tier3cost3
+	tier = 4
+	category = { materials }
+	prerequisites = { tech_crystal_armor_1 }
+	ai_update_type = all	
+	weight = @tier4weight1
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 5
+			has_country_flag = crystal_armor_1_weight
+		}		
+	}	
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}	
+
+#Crystal-Diffused Plating
+tech_tfw_crystal_armor_4 = {
+	area = engineering
+	cost = @tier5cost3
+	tier = 6
+	is_rare = yes
+	category = { materials }
+	prerequisites = { tech_crystal_armor_2 }
+	ai_update_type = all	
+	weight = @tier6weight1_tfw
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+##### Dragon Scale ##
+# 2 (granted by on_actions event)
+tech_tfw_dragon_armor_2 = {
+	area = engineering
+	cost = @tier6weight3_tfw
+	tier = 6
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all	
+	weight = 0
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+	
+	weight_modifier = {	
+		factor = 0
+	}
+}
+
+# ##################
+# Common Armor Modules
+# ##################
+
+# Tetraneutronium Armor
+tech_tfw_ship_armor_6 = {
+	area = engineering
+	cost = @tier5cost2
+	tier = 5
+	category = { materials }
+	ai_update_type = all	
+	prerequisites = { "tech_ship_armor_5" }
+	weight = @tier5weight2
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+	
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Advanced Tiers
+# Tier VII
+tech_tfw_ship_armor_7 = {
+	area = engineering
+	cost = @tier6cost2_tfw
+	tier = 6
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	weight = @tier6weight1_tfw
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_bio
+						has_technology = tech_tfw_armor_8_bio
+					}
+					has_monthly_income = { resource = exotic_gases value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_psi
+						has_technology = tech_tfw_armor_8_psi
+					}
+					has_monthly_income = { resource = sr_zro value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_synt
+						has_technology = tech_tfw_armor_8_synt
+					}
+					has_monthly_income = { resource = rare_crystals value > 0 }
+				}
+			}	
+		}	
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}	
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_bio
+						has_technology = tech_tfw_armor_8_bio
+					}
+					has_monthly_income = { resource = exotic_gases value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_psi
+						has_technology = tech_tfw_armor_8_psi
+					}
+					has_monthly_income = { resource = sr_zro value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_synt
+						has_technology = tech_tfw_armor_8_synt
+					}
+					has_monthly_income = { resource = rare_crystals value > 0 }
+				}
+			}	
+		}	
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}	
+	}
+}
+
+# Tier VIII
+tech_tfw_ship_armor_8 = {
+	area = engineering
+	cost = @tier7cost2_tfw
+	tier = 7
+	is_rare = yes
+	category = { materials }
+	ai_update_type = all	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	weight = @tier6weight2_tfw
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_bio
+						has_technology = tech_tfw_armor_8_bio
+					}
+					has_monthly_income = { resource = exotic_gases value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_psi
+						has_technology = tech_tfw_armor_8_psi
+					}
+					has_monthly_income = { resource = sr_zro value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_synt
+						has_technology = tech_tfw_armor_8_synt
+					}
+					has_monthly_income = { resource = rare_crystals value > 0 }
+				}
+			}	
+		}		
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}	
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_bio
+						has_technology = tech_tfw_armor_8_bio
+					}
+					has_monthly_income = { resource = exotic_gases value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_psi
+						has_technology = tech_tfw_armor_8_psi
+					}
+					has_monthly_income = { resource = sr_zro value > 0 }
+				}
+				AND = {
+					OR = { 
+						has_technology = tech_tfw_armor_7_synt
+						has_technology = tech_tfw_armor_8_synt
+					}
+					has_monthly_income = { resource = rare_crystals value > 0 }
+				}
+			}	
+		}	
+		modifier = {
+			factor = 0
+			is_machine_empire = yes
+		}	
+	}
+}
+
+################Bio Ascension
+# Tier I
+tech_tfw_armor_7_bio = {
+	area = society
+	cost = @tier7cost2_tfw
+	tier = 7
+	is_rare = yes
+	category = { biology }
+	ai_update_type = all	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	weight = @tier6weight3_tfw
+#	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_xenophobe = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_engineered_evolution
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Tier II
+tech_tfw_armor_8_bio = {
+	area = society
+	cost = @tier7cost3_tfw
+	tier = 7
+	is_rare = yes
+	category = { biology }
+	ai_update_type = all	
+	prerequisites = { "tech_tfw_armor_7_bio" }
+	weight = @tier7weight_tfw
+#	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_xenophobe = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_engineered_evolution
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+################Psi Ascension
+# Tier I
+tech_tfw_armor_7_psi = {
+	area = society
+	cost = @tier7cost2_tfw
+	tier = 7
+	is_rare = yes
+	category = { biology }
+	ai_update_type = all	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	weight = @tier6weight3_tfw
+#	is_reverse_engineerable = no
+
+	potential = {	
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_spiritualist = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_mind_over_matter
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Tier II
+tech_tfw_armor_8_psi = {
+	area = society
+	cost = @tier7cost3_tfw
+	tier = 7
+	is_rare = yes
+	category = { biology }
+	ai_update_type = all	
+	prerequisites = { "tech_tfw_armor_7_psi" }
+	weight = @tier7weight_tfw
+#	is_reverse_engineerable = no
+
+	potential = {	
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_spiritualist = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_mind_over_matter
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+################ Synth Ascension
+# Tier I
+tech_tfw_armor_7_synt = {
+	area = engineering
+	cost = @tier7cost2_tfw
+	tier = 7
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	weight = @tier6weight3_tfw
+#	is_reverse_engineerable = no
+
+	potential = {	
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_materialist = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_the_flesh_is_weak
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}
+
+# Tier II
+tech_tfw_armor_8_synt = {
+	area = engineering
+	cost = @tier7cost3_tfw
+	tier = 7
+	category = { materials }
+	ai_update_type = all
+	prerequisites = { "tech_tfw_armor_7_synt" }
+	weight = @tier7weight_tfw
+#	is_reverse_engineerable = no
+
+	potential = {	
+		NOT = { has_global_flag = "tfw_bosp_armors_off" }
+		OR = {
+			AND = {
+				NOT = { host_has_dlc = "Utopia" }
+				is_materialist = yes
+			}
+			AND = {
+				host_has_dlc = "Utopia"
+				has_ascension_perk = ap_the_flesh_is_weak
+			}
+		}
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2		#armors are good
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_materials"
+			}
+		}
+	}
+}

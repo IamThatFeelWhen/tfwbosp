@@ -1,0 +1,110 @@
+############ SPECIAL ASCENSION-TIED TECHS ###########
+
+### Psionic Machinery
+# Makes possible to build unmanned drones that can be controlled by psionic pilots from the distance
+tech_tfw_special_psi_machinery = {
+	area = society
+	cost = @tier3cost3
+	tier = 3
+	is_rare = yes
+	category = { psionics }
+	prerequisites = { "tech_telepathy" }
+	weight = @tier3weight3
+	
+	gateway = psionics
+
+	potential = {
+		NOR = { 
+			has_ethic = ethic_gestalt_consciousness 
+			AND = {
+				has_global_flag = "tfw_bosp_aux_off"
+				has_global_flag = "tfw_bosp_armors_off"
+			}
+		}
+	}
+	
+	modifier = { category_psionics_research_speed_mult = 0.1 }		
+
+	prereqfor_desc = {
+		hide_prereq_for_desc = component
+		custom = {
+			title = "TECH_UNLOCK_PSI_DRONES_TITLE"
+			desc = "TECH_UNLOCK_PSI_DRONES_DESC"
+		}
+	}
+	
+	weight_modifier = {
+		factor = 0.5
+		modifier = {
+			factor = 0
+			host_has_dlc = "Utopia"
+		}
+		modifier = {
+			factor = 0.50
+			NOT = {
+				research_leader = {
+					area = society
+					has_trait = "leader_trait_expertise_psionics"
+				}
+			}
+		}
+		modifier = {
+			factor = 1.10
+			research_leader = {
+				area = society
+				has_level > 2
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = society
+				has_level > 3
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 2
+			research_leader = {
+				area = society
+				has_level > 4
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+		modifier = {
+			factor = 2
+			has_ethic = "ethic_spiritualist"
+		}
+		modifier = {
+			factor = 3
+			has_ethic = "ethic_fanatic_spiritualist"
+		}
+		modifier = {
+			factor = 4
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_maniacal"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 5 #very rare tech
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_psionics"
+			}
+		}
+	}
+}

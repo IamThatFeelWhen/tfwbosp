@@ -1,0 +1,167 @@
+# ##################
+# Shields
+# ##################
+
+### Energon Shield (VI)
+tech_tfw_shield_6 = {
+	area = physics
+	cost = @tier5cost3
+	tier = 5
+	category = { field_manipulation }
+	ai_update_type = all
+	prerequisites = { "tech_shields_5" }
+	weight = @tier5weight3
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_shields_off" }
+	}
+	
+	weight_modifier = {
+		factor = 1.25
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2 #good component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+### Cascade Shield (VII)
+tech_tfw_shield_7 = {
+	area = physics
+	cost = @tier6cost3_tfw
+	tier = 6
+	is_rare = yes
+	category = { field_manipulation }
+	ai_update_type = all
+	prerequisites = { "tech_tfw_shield_6" }
+	weight = @tier6weight1_tfw
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_shields_off" }
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2 #good component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+### Resonant Shield (VIII)
+tech_tfw_shield_8 = {
+	area = physics
+	cost = @tier7cost3_tfw
+	tier = 7
+	is_rare = yes
+	category = { field_manipulation }
+	ai_update_type = all
+	prerequisites = { "tech_tfw_shield_7" }
+	weight = @tier6weight3_tfw
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_shields_off" }
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 2 #good component
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = physics
+				has_trait = "leader_trait_expertise_field_manipulation"
+			}
+		}
+	}
+}
+
+# ##################
+# Psionic Shield
+# ##################
+
+tech_tfw_psionic_shield_2 = {
+	area = society
+	cost = @tier6cost3_tfw
+	tier = 6
+	category = { psionics }
+	ai_update_type = all	
+	is_rare = yes
+	weight = 0
+	prerequisites = { "tech_psionic_shield" }
+	is_reverse_engineerable = no
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_shields_off" }
+	}
+	
+	weight_modifier = {	
+		factor = 0
+	}
+}
+
+# ##################
+# Dark Matter (ex Enigmatic) Deflectors 2
+# ##################
+
+tech_tfw_dark_matter_deflector_2 = {
+	cost = @tier6cost3_tfw
+	area = physics
+	tier = 6
+	category = { field_manipulation }
+	ai_update_type = all
+	weight = 1
+	prerequisites = { "tech_dark_matter_deflector" }
+	is_rare = yes
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_shields_off" }
+	}
+	
+	weight_modifier = {	
+		modifier = {
+			factor = 0
+			NOR = { 
+				is_country_type = fallen_empire 
+				is_country_type = awakened_fallen_empire 
+			}
+		}
+	}
+}

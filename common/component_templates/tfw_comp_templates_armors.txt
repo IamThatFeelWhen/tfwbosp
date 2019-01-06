@@ -1,0 +1,2199 @@
+###### Unique Armor ##
+
+####################
+# Crystal Plating  #
+####################
+# Crystal-Merged Plating
+utility_component_template = {
+	key = "SMALL_TFW_CRYSTAL_ARMOR_3"
+	size = small
+	icon = "GFX_tfw_crystal_armor_3"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 0.41
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_3" }
+	component_set = "TFW_CRYSTAL_ARMOR_3"
+	upgrades_to = "SMALL_TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_8S_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_CRYSTAL_ARMOR_3"
+	size = medium
+	icon = "GFX_tfw_crystal_armor_3"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 0.82
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_3" }
+	component_set = "TFW_CRYSTAL_ARMOR_3"
+	upgrades_to = "MEDIUM_TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_8M_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_CRYSTAL_ARMOR_3"
+	size = large
+	icon = "GFX_tfw_crystal_armor_3"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 1.64
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_3" }
+	component_set = "TFW_CRYSTAL_ARMOR_3"
+	upgrades_to = "LARGE_TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_8L_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+# Crystal-Interfered Plating 
+utility_component_template = {
+	key = "SMALL_TFW_CRYSTAL_ARMOR_4"
+	size = small
+	icon = "GFX_tfw_crystal_armor_4"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 0.49
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_4" }
+	component_set = "TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_10S_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_CRYSTAL_ARMOR_4"
+	size = medium
+	icon = "GFX_tfw_crystal_armor_4"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 0.98
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_4" }
+	component_set = "TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_10M_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_CRYSTAL_ARMOR_4"
+	size = large
+	icon = "GFX_tfw_crystal_armor_4"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			rare_crystals = 1.96
+		}
+	}
+	
+	prerequisites = { "tech_tfw_crystal_armor_4" }
+	component_set = "TFW_CRYSTAL_ARMOR_4"
+	
+	modifier = {
+		ship_hull_add = @armor_10L_tfw
+	}
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+}
+
+####################
+# Dragon Armor     #
+####################
+# Dragon Scale Armor
+utility_component_template = {
+	key = "SMALL_TFW_DRAGON_ARMOR_2"
+	size = small
+	icon = "GFX_tfw_dragon_armor_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t11_cost_tfw
+		}		
+		upkeep = {
+			energy = @s_t11_upkeep_energy_tfw
+			alloys = @s_t11_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_11S_tfw
+	}
+	
+	prerequisites = { "tech_tfw_dragon_armor_2" }
+	component_set = "TFW_DRAGON_ARMOR_2"
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_DRAGON_ARMOR_2"
+	size = medium
+	icon = "GFX_tfw_dragon_armor_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t11_cost_tfw
+		}		
+		upkeep = {
+			energy = @m_t11_upkeep_energy_tfw
+			alloys = @m_t11_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_11M_tfw
+	}
+	
+	prerequisites = { "tech_tfw_dragon_armor_2" }
+	component_set = "TFW_DRAGON_ARMOR_2"
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_DRAGON_ARMOR_2"
+	size = large
+	icon = "GFX_tfw_dragon_armor_2"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t11_cost_tfw
+		}		
+		upkeep = {
+			energy = @l_t11_upkeep_energy_tfw
+			alloys = @l_t11_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_11L_tfw
+	}
+	
+	prerequisites = { "tech_tfw_dragon_armor_2" }
+	component_set = "TFW_DRAGON_ARMOR_2"
+}
+
+########Common Armor##
+#Tetraneutronium Armor (VI)
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_6"
+	size = small
+	icon = "GFX_tfw_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t6_cost
+		}		
+		upkeep = {
+			energy = @s_t6_upkeep_energy
+			alloys = @s_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6S
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6"
+	upgrades_to = "SMALL_TFW_ARMOR_7"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_6"
+	size = medium
+	icon = "GFX_tfw_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t6_cost
+		}		
+		upkeep = {
+			energy = @m_t6_upkeep_energy
+			alloys = @m_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6M
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6"
+	upgrades_to = "MEDIUM_TFW_ARMOR_7"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_6"
+	size = large
+	icon = "GFX_tfw_armor_6"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+		}		
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6L
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6"
+	upgrades_to = "LARGE_TFW_ARMOR_7"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+####ADV COMMON ARMOR###
+#Dybarion Armor (VII)
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_7"
+	size = small
+	icon = "GFX_tfw_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t7_cost
+		}		
+		upkeep = {
+			energy = @s_t7_upkeep_energy
+			alloys = @s_t7_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_7S_tfw
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7"
+	upgrades_to = "SMALL_TFW_ARMOR_8"	
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_7"
+	size = medium
+	icon = "GFX_tfw_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t7_cost
+		}		
+		upkeep = {
+			energy = @m_t7_upkeep_energy
+			alloys = @m_t7_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_7M_tfw
+	}	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7"
+	upgrades_to = "MEDIUM_TFW_ARMOR_8"	
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_7"
+	size = large
+	icon = "GFX_tfw_armor_7"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t7_cost
+		}		
+		upkeep = {
+			energy = @l_t7_upkeep_energy
+			alloys = @l_t7_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_7L_tfw
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7"
+	upgrades_to = "LARGE_TFW_ARMOR_8"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Dybaricramion Armor (VIII)
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_8"
+	size = small
+	icon = "GFX_tfw_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t8_cost_tfw
+		}		
+		upkeep = {
+			energy = @s_t8_upkeep_energy_tfw
+			alloys = @s_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8S_tfw
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_8"
+	size = medium
+	icon = "GFX_tfw_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t8_cost_tfw
+		}		
+		upkeep = {
+			energy = @m_t8_upkeep_energy_tfw
+			alloys = @m_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8M_tfw
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_8"
+	size = large
+	icon = "GFX_tfw_armor_8"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t8_cost_tfw
+		}		
+		upkeep = {
+			energy = @l_t8_upkeep_energy_tfw
+			alloys = @l_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			has_authority = auth_machine_intelligence
+		}
+	}	
+}
+
+#####BIO ARMOR#####
+#Tier I 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_7_BIO"
+	size = small
+	icon = "GFX_tfw_armor_7_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t8_cost_tfw
+			exotic_gases = @s_t7_rare
+		}		
+		upkeep = {
+			energy = @s_t8_upkeep_energy_tfw
+			alloys = @s_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8S_tfw
+		ship_armor_regen_add_static = @s_t7_rare
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_bio" }
+	component_set = "TFW_ARMOR_7_BIO"
+	upgrades_to = "SMALL_TFW_ARMOR_8_BIO"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_7_BIO"
+	size = medium
+	icon = "GFX_tfw_armor_7_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t8_cost_tfw
+			exotic_gases = @m_t7_rare
+		}		
+		upkeep = {
+			energy = @m_t8_upkeep_energy_tfw
+			alloys = @m_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8M_tfw
+		ship_armor_regen_add_static = @m_t7_rare
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_bio" }
+	component_set = "TFW_ARMOR_7_BIO"
+	upgrades_to = "MEDIUM_TFW_ARMOR_8_BIO"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_7_BIO"
+	size = large
+	icon = "GFX_tfw_armor_7_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t8_cost_tfw
+			exotic_gases = @l_t7_rare
+		}		
+		upkeep = {
+			energy = @l_t8_upkeep_energy_tfw
+			alloys = @l_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+		ship_armor_regen_add_static = @l_t7_rare
+	}
+
+	prerequisites = { "tech_tfw_armor_7_bio" }
+	component_set = "TFW_ARMOR_7_BIO"
+	upgrades_to = "LARGE_TFW_ARMOR_8_BIO"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Tier II 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_8_BIO"
+	size = small
+	icon = "GFX_tfw_armor_8_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t9_cost_tfw
+			exotic_gases = @s_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @s_t9_upkeep_energy_tfw
+			alloys = @s_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9S_tfw
+		ship_armor_regen_add_static = @s_t9_rare_tfw
+	}
+	
+	prerequisites = { "tech_tfw_armor_8_bio" }
+	component_set = "TFW_ARMOR_8_BIO"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_8_BIO"
+	size = medium
+	icon = "GFX_tfw_armor_8_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t9_cost_tfw
+			exotic_gases = @m_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @m_t9_upkeep_energy_tfw
+			alloys = @m_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9M_tfw
+		ship_armor_regen_add_static = @m_t9_rare_tfw
+	}
+
+	prerequisites = { "tech_tfw_armor_8_bio" }
+	component_set = "TFW_ARMOR_8_BIO"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_8_BIO"
+	size = large
+	icon = "GFX_tfw_armor_8_bio"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t9_cost_tfw
+			exotic_gases = @l_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @l_t9_upkeep_energy_tfw
+			alloys = @l_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9L_tfw
+		ship_armor_regen_add_static = @l_t9_rare_tfw
+	}
+
+	prerequisites = { "tech_tfw_armor_8_bio" }
+	component_set = "TFW_ARMOR_8_BIO"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = exotic_gases value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#####PSI ARMOR#####
+#Tier I 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_7_PSI"
+	size = small
+	icon = "GFX_tfw_armor_7_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t8_cost_tfw
+			sr_zro = 0.055
+		}
+		upkeep = {
+			energy = @s_t8_upkeep_energy_tfw
+			alloys = @s_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8S_tfw
+		ship_shield_add = 55
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_psi" }
+	component_set = "TFW_ARMOR_7_PSI"
+	upgrades_to = "SMALL_TFW_ARMOR_8_PSI"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_7_PSI"
+	size = medium
+	icon = "GFX_tfw_armor_7_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t8_cost_tfw
+			sr_zro = 0.111
+		}
+		upkeep = {
+			energy = @m_t8_upkeep_energy_tfw
+			alloys = @m_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8M_tfw
+		ship_shield_add = 111
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_psi" }
+	component_set = "TFW_ARMOR_7_PSI"
+	upgrades_to = "MEDIUM_TFW_ARMOR_8_PSI"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_7_PSI"
+	size = large
+	icon = "GFX_tfw_armor_7_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t8_cost_tfw
+			sr_zro = 0.222
+		}
+		upkeep = {
+			energy = @l_t8_upkeep_energy_tfw
+			alloys = @l_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+		ship_shield_add = 222
+	}
+
+	prerequisites = { "tech_tfw_armor_7_psi" }
+	component_set = "TFW_ARMOR_7_PSI"
+	upgrades_to = "LARGE_TFW_ARMOR_8_PSI"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Tier II 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_8_PSI"
+	size = small
+	icon = "GFX_tfw_armor_8_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t9_cost_tfw
+			sr_zro = 0.111
+		}
+		upkeep = {
+			energy = @s_t9_upkeep_energy_tfw
+			alloys = @s_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9S_tfw
+		ship_shield_add = 111
+	}
+	
+	prerequisites = { "tech_tfw_armor_8_psi" }
+	component_set = "TFW_ARMOR_8_PSI"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_8_PSI"
+	size = medium
+	icon = "GFX_tfw_armor_8_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t9_cost_tfw
+			sr_zro = 0.222
+		}
+		upkeep = {
+			energy = @m_t9_upkeep_energy_tfw
+			alloys = @m_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9M_tfw
+		ship_shield_add = 222
+	}
+
+	prerequisites = { "tech_tfw_armor_8_psi" }
+	component_set = "TFW_ARMOR_8_PSI"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_8_PSI"
+	size = large
+	icon = "GFX_tfw_armor_8_psi"
+	icon_frame = 1
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t9_cost_tfw
+			sr_zro = 0.333
+		}
+		upkeep = {
+			energy = @l_t9_upkeep_energy_tfw
+			alloys = @l_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+		ship_shield_add = 333
+	}
+
+	prerequisites = { "tech_tfw_armor_8_psi" }
+	component_set = "TFW_ARMOR_8_PSI"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = sr_zro value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_spiritualist }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#####SYNTH ARMOR ##
+#Tier I 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_7_SYNT"
+	size = small
+	icon = "GFX_tfw_armor_7_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t8_cost_tfw
+			rare_crystals = @s_t8_rare_tfw
+		}		
+		upkeep = {
+			energy = @s_t8_upkeep_energy_tfw
+			alloys = @s_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8S_tfw
+		ship_speed_mult = 0.02
+		ship_hull_add = 98
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_synt" }
+	component_set = "TFW_ARMOR_7_SYNT"
+	upgrades_to = "SMALL_TFW_ARMOR_8_SYNT"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_7_SYNT"
+	size = medium
+	icon = "GFX_tfw_armor_7_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t8_cost_tfw
+			rare_crystals = @m_t8_rare_tfw
+		}		
+		upkeep = {
+			energy = @m_t8_upkeep_energy_tfw
+			alloys = @m_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8M_tfw
+		ship_speed_mult = 0.04
+		ship_hull_add = 192
+	}
+	
+	prerequisites = { "tech_tfw_armor_7_synt" }
+	component_set = "TFW_ARMOR_7_SYNT"
+	upgrades_to = "MEDIUM_TFW_ARMOR_8_SYNT"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_7_SYNT"
+	size = large
+	icon = "GFX_tfw_armor_7_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t8_cost_tfw
+			rare_crystals = @l_t8_rare_tfw
+		}		
+		upkeep = {
+			energy = @l_t8_upkeep_energy_tfw
+			alloys = @l_t8_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+		ship_speed_mult = 0.08
+		ship_hull_add = 384
+	}
+
+	prerequisites = { "tech_tfw_armor_7_synt" }
+	component_set = "TFW_ARMOR_7_SYNT"
+	upgrades_to = "LARGE_TFW_ARMOR_8_SYNT"	
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Tier II 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_8_SYNT"
+	size = small
+	icon = "GFX_tfw_armor_8_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t9_cost_tfw
+			rare_crystals = @s_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @s_t9_upkeep_energy_tfw
+			alloys = @s_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9S_tfw
+		ship_speed_mult = 0.03
+		ship_hull_add = 124
+	}
+	
+	prerequisites = { "tech_tfw_armor_8_synt" }
+	component_set = "TFW_ARMOR_8_SYNT"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_8_SYNT"
+	size = medium
+	icon = "GFX_tfw_armor_8_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t9_cost_tfw
+			rare_crystals = @m_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @m_t9_upkeep_energy_tfw
+			alloys = @m_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9M_tfw
+		ship_speed_mult = 0.05
+		ship_hull_add = 248
+	}
+
+	prerequisites = { "tech_tfw_armor_8_synt" }
+	component_set = "TFW_ARMOR_8_SYNT"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_8_SYNT"
+	size = large
+	icon = "GFX_tfw_armor_8_synt"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t9_cost_tfw
+			rare_crystals = @l_t9_rare_tfw
+		}		
+		upkeep = {
+			energy = @l_t9_upkeep_energy_tfw
+			alloys = @l_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9L_tfw
+		ship_speed_mult = 0.1
+		ship_hull_add = 496
+	}
+
+	prerequisites = { "tech_tfw_armor_8_synt" }
+	component_set = "TFW_ARMOR_8_SYNT"
+
+	ai_weight = {
+		weight = 1
+		modifier = {
+			factor = 0.0
+			has_monthly_income = { resource = rare_crystals value <= 0 }
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_ethic = ethic_fanatic_xenophobe }
+			OR = {
+				is_country_type = fallen_empire
+				is_country_type = awakened_fallen_empire
+			}
+		}
+	}	
+}
+
+#####MECHs ARMOR ##
+# Plasteel Armor
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_1_MECH"
+	size = small
+	icon = "GFX_tfw_armor_1_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_1S
+	}
+	
+	prerequisites = { "tech_ship_armor_1" }
+	component_set = "TFW_ARMOR_1_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_2_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t1_cost
+		}		
+		upkeep = {
+			energy = @s_t1_upkeep_energy
+			alloys = @s_t1_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}		
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_1_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_1_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_1M
+	}
+	
+	prerequisites = { "tech_ship_armor_1" }
+	component_set = "TFW_ARMOR_1_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_2_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t1_cost
+		}		
+		upkeep = {
+			energy = @m_t1_upkeep_energy
+			alloys = @m_t1_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_1_MECH"
+	size = large
+	icon = "GFX_tfw_armor_1_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_1L
+	}
+	
+	prerequisites = { "tech_ship_armor_1" }
+	component_set = "TFW_ARMOR_1_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_2_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t1_cost
+		}		
+		upkeep = {
+			energy = @l_t1_upkeep_energy
+			alloys = @l_t1_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+# Durasteel Armor
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_2_MECH"
+	size = small
+	icon = "GFX_tfw_armor_2_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_2S
+	}
+	
+	prerequisites = { "tech_ship_armor_2" }
+	component_set = "TFW_ARMOR_2_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_3_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t2_cost
+		}		
+		upkeep = {
+			energy = @s_t2_upkeep_energy
+			alloys = @s_t2_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_2_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_2_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_2M
+	}
+	
+	prerequisites = { "tech_ship_armor_2" }
+	component_set = "TFW_ARMOR_2_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_3_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t2_cost
+		}		
+		upkeep = {
+			energy = @m_t2_upkeep_energy
+			alloys = @m_t2_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_2_MECH"
+	size = large
+	icon = "GFX_tfw_armor_2_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_2L
+	}
+	
+	prerequisites = { "tech_ship_armor_2" }
+	component_set = "TFW_ARMOR_2_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_3_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t2_cost
+		}		
+		upkeep = {
+			energy = @l_t2_upkeep_energy
+			alloys = @l_t2_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+# Ceramo-Metal Armor
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_3_MECH"
+	size = small
+	icon = "GFX_tfw_armor_3_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_3S
+	}
+	
+	prerequisites = { "tech_ship_armor_3" }
+	component_set = "TFW_ARMOR_3_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_4_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t3_cost
+		}		
+		upkeep = {
+			energy = @s_t3_upkeep_energy
+			alloys = @s_t3_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_3_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_3_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_3M
+	}
+	
+	prerequisites = { "tech_ship_armor_3" }
+	component_set = "TFW_ARMOR_3_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_4_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t3_cost
+		}		
+		upkeep = {
+			energy = @m_t3_upkeep_energy
+			alloys = @m_t3_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_3_MECH"
+	size = large
+	icon = "GFX_tfw_armor_3_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_3L
+	}
+	
+	prerequisites = { "tech_ship_armor_3" }
+	component_set = "TFW_ARMOR_3_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_4_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t3_cost
+		}		
+		upkeep = {
+			energy = @l_t3_upkeep_energy
+			alloys = @l_t3_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+# Nanocomposite Armor
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_4_MECH"
+	size = small
+	icon = "GFX_tfw_armor_4_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_4S
+	}
+	
+	prerequisites = { "tech_ship_armor_4" }
+	component_set = "TFW_ARMOR_4_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_5_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t4_cost
+		}		
+		upkeep = {
+			energy = @s_t4_upkeep_energy
+			alloys = @s_t4_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_4_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_4_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_4M
+	}
+	
+	prerequisites = { "tech_ship_armor_4" }
+	component_set = "TFW_ARMOR_4_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_5_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t4_cost
+		}		
+		upkeep = {
+			energy = @m_t4_upkeep_energy
+			alloys = @m_t4_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_4_MECH"
+	size = large
+	icon = "GFX_tfw_armor_4_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_4L
+	}
+	
+	prerequisites = { "tech_ship_armor_4" }
+	component_set = "TFW_ARMOR_4_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_5_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t4_cost
+		}		
+		upkeep = {
+			energy = @l_t4_upkeep_energy
+			alloys = @l_t4_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+# Neutronium Armor
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_5_MECH"
+	size = small
+	icon = "GFX_tfw_armor_5_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_5S
+	}
+	
+	prerequisites = { "tech_ship_armor_5" }
+	component_set = "TFW_ARMOR_5_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_6_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t5_cost
+		}		
+		upkeep = {
+			energy = @s_t5_upkeep_energy
+			alloys = @s_t5_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_5_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_5_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_5M
+	}
+	
+	prerequisites = { "tech_ship_armor_5" }
+	component_set = "TFW_ARMOR_5_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_6_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t5_cost
+		}		
+		upkeep = {
+			energy = @m_t5_upkeep_energy
+			alloys = @m_t5_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_5_MECH"
+	size = large
+	icon = "GFX_tfw_armor_5_mech"
+	icon_frame = 1
+	power = 0
+	modifier = {
+		ship_armor_add = @armor_5L
+	}
+	
+	prerequisites = { "tech_ship_armor_5" }
+	component_set = "TFW_ARMOR_5_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_6_MECH"
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t5_cost
+		}		
+		upkeep = {
+			energy = @l_t5_upkeep_energy
+			alloys = @l_t5_upkeep_alloys
+		}
+	}
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Tetraneutronium Armor Mech (VI)
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_6_MECH"
+	size = small
+	icon = "GFX_tfw_armor_6_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t6_cost
+		}		
+		upkeep = {
+			energy = @s_t6_upkeep_energy
+			alloys = @s_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6S
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_7_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_6_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_6_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t6_cost
+		}		
+		upkeep = {
+			energy = @m_t6_upkeep_energy
+			alloys = @m_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6M
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_7_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_6_MECH"
+	size = large
+	icon = "GFX_tfw_armor_6_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t6_cost
+		}		
+		upkeep = {
+			energy = @l_t6_upkeep_energy
+			alloys = @l_t6_upkeep_alloys
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_6L
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_6" }
+	component_set = "TFW_ARMOR_6_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_7_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+### Advanced 
+#Tier I 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_7_MECH"
+	size = small
+	icon = "GFX_tfw_armor_7_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t9_cost_tfw
+		}		
+		upkeep = {
+			energy = @s_t9_upkeep_energy_tfw
+			alloys = @s_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8S_tfw
+		ship_armor_regen_add_static = @s_t4_rare
+		ship_hull_regen_add_static = @s_t4_rare
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7_MECH"
+	upgrades_to = "SMALL_TFW_ARMOR_8_MECH"	
+
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_7_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_7_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t9_cost_tfw
+		}		
+		upkeep = {
+			energy = @m_t9_upkeep_energy_tfw
+			alloys = @m_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8M_tfw
+		ship_armor_regen_add_static = @m_t4_rare
+		ship_hull_regen_add_static = @m_t4_rare
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7_MECH"
+	upgrades_to = "MEDIUM_TFW_ARMOR_8_MECH"	
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_7_MECH"
+	size = large
+	icon = "GFX_tfw_armor_7_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t9_cost_tfw
+		}		
+		upkeep = {
+			energy = @l_t9_upkeep_energy_tfw
+			alloys = @l_t9_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_8L_tfw
+		ship_armor_regen_add_static = @l_t4_rare
+		ship_hull_regen_add_static = @l_t4_rare
+	}
+
+	prerequisites = { "tech_tfw_ship_armor_7" }
+	component_set = "TFW_ARMOR_7_MECH"
+	upgrades_to = "LARGE_TFW_ARMOR_8_MECH"	
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Tier II 
+#Small
+utility_component_template = {
+	key = "SMALL_TFW_ARMOR_8_MECH"
+	size = small
+	icon = "GFX_tfw_armor_8_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @s_t10_cost_tfw
+		}		
+		upkeep = {
+			energy = @s_t10_upkeep_energy_tfw
+			alloys = @s_t10_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9S_tfw
+		ship_armor_regen_add_static = @s_t6_rare
+		ship_hull_regen_add_static = @s_t6_rare
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Medium
+utility_component_template = {
+	key = "MEDIUM_TFW_ARMOR_8_MECH"
+	size = medium
+	icon = "GFX_tfw_armor_8_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @m_t10_cost_tfw
+		}		
+		upkeep = {
+			energy = @m_t10_upkeep_energy_tfw
+			alloys = @m_t10_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9M_tfw
+		ship_armor_regen_add_static = @m_t6_rare
+		ship_hull_regen_add_static = @m_t6_rare
+	}
+
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}
+
+#Large
+utility_component_template = {
+	key = "LARGE_TFW_ARMOR_8_MECH"
+	size = large
+	icon = "GFX_tfw_armor_8_mech"
+	icon_frame = 1
+	power = 0
+	resources = {
+		category = ship_components
+		cost = {
+			alloys = @l_t10_cost_tfw
+		}		
+		upkeep = {
+			energy = @l_t10_upkeep_energy_tfw
+			alloys = @l_t10_upkeep_alloys_tfw
+		}
+	}
+	modifier = {
+		ship_armor_add = @armor_9L_tfw
+		ship_armor_regen_add_static = @l_t6_rare
+		ship_hull_regen_add_static = @l_t6_rare
+	}
+	
+	prerequisites = { "tech_tfw_ship_armor_8" }
+	component_set = "TFW_ARMOR_8_MECH"
+	
+	valid_for_country = {
+		modifier = {
+			factor = 0
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+	}	
+}

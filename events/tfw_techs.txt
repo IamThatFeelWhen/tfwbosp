@@ -1,0 +1,104 @@
+namespace = tfw_techs
+ 
+# Enigmatic Deflector 2
+country_event = {
+	id = tfw_techs.1
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_dark_matter_deflector"
+		NOT = { has_global_flag = tfw_bosp_shields_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_dark_matter_deflector_2
+	}
+}
+
+# Enigmatic Reactor 2
+country_event = {
+	id = tfw_techs.2
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_dark_matter_power_core"
+		NOT = { has_global_flag = tfw_bosp_reactors_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_darkmatter_reactor_2
+	}
+}
+
+# Dragon Scale Armor 2
+country_event = {
+	id = tfw_techs.3
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_dragon_armor"
+		NOT = { has_global_flag = tfw_bosp_armors_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_dragon_armor_2
+	}
+}
+
+# Enigmatic Decoder
+country_event = {
+	id = tfw_techs.4
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_enigmatic_decoder"
+		NOT = { has_global_flag = tfw_bosp_aux_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_enigmatic_decoder_2
+	}
+}
+
+# Enigmatic Encoder
+country_event = {
+	id = tfw_techs.5
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_enigmatic_encoder"
+		NOT = { has_global_flag = tfw_bosp_aux_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_enigmatic_encoder_2
+	}
+}
+
+# Psionic Shields 2
+country_event = {
+	id = tfw_techs.6
+	hide_window = yes
+
+	is_triggered_only = yes
+	
+	trigger = {
+		last_increased_tech = "tech_psionic_shield"
+#		has_technology = "tech_tfw_focused_psi_flows"
+		NOT = { has_global_flag = tfw_bosp_shields_off }
+	}
+	
+	immediate = { 
+		add_research_option = tech_tfw_psionic_shield_2
+	}
+}

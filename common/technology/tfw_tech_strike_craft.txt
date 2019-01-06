@@ -1,0 +1,70 @@
+########### STRIKE CRAFT ###
+# Strike Craft 4 (COMMON)
+tech_tfw_strike_craft_4 = {
+	cost = @tier4cost3
+	area = engineering
+	tier = 4
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_strike_craft_3" }
+	weight = @tier4weight3
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_strkcrft_off" }
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
+
+# Strike Craft 5 (COMMON)
+tech_tfw_strike_craft_5 = {
+	cost = @tier5cost3
+	area = engineering
+	tier = 5
+	ai_update_type = military
+	category = { voidcraft }	
+	prerequisites = { "tech_tfw_strike_craft_4" }
+	weight = @tier5weight3
+
+	potential = {
+		NOT = { has_global_flag = "tfw_bosp_strkcrft_off" }
+	}
+	
+	weight_modifier = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+	
+	ai_weight = {
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = engineering
+				has_trait = "leader_trait_expertise_voidcraft"
+			}
+		}
+	}
+}
